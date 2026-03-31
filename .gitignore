@@ -1,0 +1,5 @@
+doc/*.aux
+doc/*.toc
+doc/*.log
+doc/*.out
+src/*.class
