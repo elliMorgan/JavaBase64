@@ -1,12 +1,12 @@
 CC=javac
 TARGET=mainacv01
-
+SRCS=CLI.java mainacv01.java B64Encoding.java
 
 all: clean $(TARGET).class
 
 
-$(TARGET).class: $(TARGET).java
-	$(CC) $<
+$(TARGET).class: $(SRCS)
+	$(CC) $(SRCS)
 # 	$(CC) $<
 
 
