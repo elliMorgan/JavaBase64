@@ -7,4 +7,4 @@ if [ ! -f "./src/mainacv01.class" ]; then
 	gmake -C src
 fi
 
-java src.mainacv01
+java src.mainacv01 $@
